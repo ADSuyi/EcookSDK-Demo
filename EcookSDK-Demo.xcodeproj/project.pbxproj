@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032EE2A127B3982F00BF58BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032EE2A027B3982F00BF58BE /* AppDelegate.m */; };
+		032EE2A727B3982F00BF58BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032EE2A627B3982F00BF58BE /* ViewController.m */; };
+		032EE2AA27B3982F00BF58BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032EE2A827B3982F00BF58BE /* Main.storyboard */; };
+		032EE2AC27B3983200BF58BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032EE2AB27B3983200BF58BE /* Assets.xcassets */; };
+		032EE2AF27B3983200BF58BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032EE2AD27B3983200BF58BE /* LaunchScreen.storyboard */; };
+		032EE2B227B3983200BF58BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032EE2B127B3983200BF58BE /* main.m */; };
+		032EE2B927B3A8C900BF58BE /* EcookSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032EE2B827B3A8C900BF58BE /* EcookSDK.xcframework */; };
+		032EE2BF27B3A9AA00BF58BE /* ADSuyiKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032EE2BC27B3A9AA00BF58BE /* ADSuyiKit.xcframework */; };
+		032EE2C127B3A9AA00BF58BE /* ADSuyiKitIDFA.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032EE2BD27B3A9AA00BF58BE /* ADSuyiKitIDFA.xcframework */; };
+		032EE2C327B3A9AA00BF58BE /* ADSuyiSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032EE2BE27B3A9AA00BF58BE /* ADSuyiSDK.xcframework */; };
+		8B4627C4082B2702A9C76BAA /* libPods-EcookSDK-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44941F8A21B268D767FCA488 /* libPods-EcookSDK-Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032EE29C27B3982F00BF58BE /* EcookSDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EcookSDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		032EE29F27B3982F00BF58BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		032EE2A027B3982F00BF58BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		032EE2A527B3982F00BF58BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		032EE2A627B3982F00BF58BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		032EE2A927B3982F00BF58BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032EE2AB27B3983200BF58BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032EE2AE27B3983200BF58BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032EE2B027B3983200BF58BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032EE2B127B3983200BF58BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		032EE2B827B3A8C900BF58BE /* EcookSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = EcookSDK.xcframework; path = Pods/EcookSDK/EcookSDK/Classes/EcookSDK.xcframework; sourceTree = "<group>"; };
+		032EE2BC27B3A9AA00BF58BE /* ADSuyiKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ADSuyiKit.xcframework; path = Pods/ADSuyiKit/ADSuyiKit/Classes/ADSuyiKit.xcframework; sourceTree = "<group>"; };
+		032EE2BD27B3A9AA00BF58BE /* ADSuyiKitIDFA.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ADSuyiKitIDFA.xcframework; path = Pods/ADSuyiKit/ADSuyiKit/Classes/ADSuyiKitIDFA.xcframework; sourceTree = "<group>"; };
+		032EE2BE27B3A9AA00BF58BE /* ADSuyiSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ADSuyiSDK.xcframework; path = Pods/ADSuyiSDK/ADSuyiSDK/Classes/core/ADSuyiSDK.xcframework; sourceTree = "<group>"; };
+		33D988E63579D0EC77357776 /* Pods-EcookSDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcookSDK-Demo.release.xcconfig"; path = "Target Support Files/Pods-EcookSDK-Demo/Pods-EcookSDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		44941F8A21B268D767FCA488 /* libPods-EcookSDK-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcookSDK-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA68583DEE5BD4C3CD09E4C /* Pods-EcookSDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcookSDK-Demo.debug.xcconfig"; path = "Target Support Files/Pods-EcookSDK-Demo/Pods-EcookSDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032EE29927B3982F00BF58BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032EE2B927B3A8C900BF58BE /* EcookSDK.xcframework in Frameworks */,
+				032EE2C327B3A9AA00BF58BE /* ADSuyiSDK.xcframework in Frameworks */,
+				8B4627C4082B2702A9C76BAA /* libPods-EcookSDK-Demo.a in Frameworks */,
+				032EE2BF27B3A9AA00BF58BE /* ADSuyiKit.xcframework in Frameworks */,
+				032EE2C127B3A9AA00BF58BE /* ADSuyiKitIDFA.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032EE29327B3982E00BF58BE = {
+			isa = PBXGroup;
+			children = (
+				032EE29E27B3982F00BF58BE /* EcookSDK-Demo */,
+				032EE29D27B3982F00BF58BE /* Products */,
+				0BDD892274F532CBE89A426F /* Pods */,
+				7A2B52543EF1514F83ACC813 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		032EE29D27B3982F00BF58BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032EE29C27B3982F00BF58BE /* EcookSDK-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032EE29E27B3982F00BF58BE /* EcookSDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				032EE29F27B3982F00BF58BE /* AppDelegate.h */,
+				032EE2A027B3982F00BF58BE /* AppDelegate.m */,
+				032EE2A527B3982F00BF58BE /* ViewController.h */,
+				032EE2A627B3982F00BF58BE /* ViewController.m */,
+				032EE2A827B3982F00BF58BE /* Main.storyboard */,
+				032EE2AB27B3983200BF58BE /* Assets.xcassets */,
+				032EE2AD27B3983200BF58BE /* LaunchScreen.storyboard */,
+				032EE2B027B3983200BF58BE /* Info.plist */,
+				032EE2B127B3983200BF58BE /* main.m */,
+			);
+			path = "EcookSDK-Demo";
+			sourceTree = "<group>";
+		};
+		0BDD892274F532CBE89A426F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAA68583DEE5BD4C3CD09E4C /* Pods-EcookSDK-Demo.debug.xcconfig */,
+				33D988E63579D0EC77357776 /* Pods-EcookSDK-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A2B52543EF1514F83ACC813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				032EE2BC27B3A9AA00BF58BE /* ADSuyiKit.xcframework */,
+				032EE2BD27B3A9AA00BF58BE /* ADSuyiKitIDFA.xcframework */,
+				032EE2BE27B3A9AA00BF58BE /* ADSuyiSDK.xcframework */,
+				032EE2B827B3A8C900BF58BE /* EcookSDK.xcframework */,
+				44941F8A21B268D767FCA488 /* libPods-EcookSDK-Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032EE29B27B3982F00BF58BE /* EcookSDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032EE2B527B3983200BF58BE /* Build configuration list for PBXNativeTarget "EcookSDK-Demo" */;
+			buildPhases = (
+				1A3DAC83E7F54BFBDED0B1A5 /* [CP] Check Pods Manifest.lock */,
+				032EE29827B3982F00BF58BE /* Sources */,
+				032EE29927B3982F00BF58BE /* Frameworks */,
+				032EE29A27B3982F00BF58BE /* Resources */,
+				BA558E30FF9ADC0539984A15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EcookSDK-Demo";
+			productName = "EcookSDK-Demo";
+			productReference = 032EE29C27B3982F00BF58BE /* EcookSDK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032EE29427B3982E00BF58BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					032EE29B27B3982F00BF58BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 032EE29727B3982E00BF58BE /* Build configuration list for PBXProject "EcookSDK-Demo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032EE29327B3982E00BF58BE;
+			productRefGroup = 032EE29D27B3982F00BF58BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032EE29B27B3982F00BF58BE /* EcookSDK-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032EE29A27B3982F00BF58BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032EE2AF27B3983200BF58BE /* LaunchScreen.storyboard in Resources */,
+				032EE2AC27B3983200BF58BE /* Assets.xcassets in Resources */,
+				032EE2AA27B3982F00BF58BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3DAC83E7F54BFBDED0B1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcookSDK-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA558E30FF9ADC0539984A15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcookSDK-Demo/Pods-EcookSDK-Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcookSDK-Demo/Pods-EcookSDK-Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcookSDK-Demo/Pods-EcookSDK-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032EE29827B3982F00BF58BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032EE2A727B3982F00BF58BE /* ViewController.m in Sources */,
+				032EE2A127B3982F00BF58BE /* AppDelegate.m in Sources */,
+				032EE2B227B3983200BF58BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		032EE2A827B3982F00BF58BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032EE2A927B3982F00BF58BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		032EE2AD27B3983200BF58BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032EE2AE27B3983200BF58BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032EE2B327B3983200BF58BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		032EE2B427B3983200BF58BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032EE2B627B3983200BF58BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA68583DEE5BD4C3CD09E4C /* Pods-EcookSDK-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R8264RPHR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcookSDK-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangshen.ADSuyiSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		032EE2B727B3983200BF58BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D988E63579D0EC77357776 /* Pods-EcookSDK-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R8264RPHR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EcookSDK-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangshen.ADSuyiSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032EE29727B3982E00BF58BE /* Build configuration list for PBXProject "EcookSDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032EE2B327B3983200BF58BE /* Debug */,
+				032EE2B427B3983200BF58BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032EE2B527B3983200BF58BE /* Build configuration list for PBXNativeTarget "EcookSDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032EE2B627B3983200BF58BE /* Debug */,
+				032EE2B727B3983200BF58BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032EE29427B3982E00BF58BE /* Project object */;
+}
